@@ -46,4 +46,15 @@
                 display: inline;
                 margin: 2%;
             }
+            .logo{
+                position: absolute;
+                top:50%;
+                animation: logo 4s linear 1s infinite alternate ;
+            }
+            @keyframes logo{
+                0%{left: 0%;}
+                50%{left: 60%;}
+                100%{left: 35%;}
+        
+            }
             
