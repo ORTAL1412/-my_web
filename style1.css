@@ -1,0 +1,49 @@
+
+        body{
+            font-family: 'Yellowtail', cursive;
+            background-color: rgb(230, 178, 230);
+            text-align: center;
+            
+            }
+    
+            img{
+                padding: 10px;
+                width: 230px;
+                height: 230px;
+                animation-name: pic;
+                border-radius: 10%;
+            }
+            img:hover{
+                animation: pic 3s linear infinite alternate;
+                opacity: 0.4; 
+                
+            }
+            @keyframes pic{
+                0%{ transform: rotatey(0deg);}
+                100%{transform: rotateY(180deg);}
+            }
+            @media (max-width:600px){
+            }
+    
+            button{
+                background-color: blueviolet;
+                color: white;
+                
+            }
+            #home{
+                background-color: rgb(170, 149, 189);
+                width: 150px;
+                height: 40px;
+                border: solid black 1px;
+                text-decoration: none;
+                position: fixed;
+                left: 5%;
+                z-index: 1;
+                
+   
+            }
+            #home a{
+                display: inline;
+                margin: 2%;
+            }
+            

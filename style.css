@@ -1,0 +1,137 @@
+
+    body {
+      font-family: 'Yellowtail', cursive;
+      background-color: rgb(230, 178, 230);
+      text-align: center;
+    }
+
+    .container {
+      display: grid;
+      grid-template-areas:
+        'header header header header'
+        'content content content sidebar'
+        'box-1 box-2 box-2 sidebar'
+        'box-3 box-3 box-3 sidebar'
+        'footer footer footer footer';
+      grid-gap: 10px;
+
+    }
+
+    .header,
+    .content,
+    .sidebar,
+    .box-1,
+    .box-2,
+    .box-3,
+    .footer {
+      padding: 20px;
+
+    }
+
+
+    .header {
+
+      grid-area: header;
+    }
+
+    .content {
+      grid-area: content;
+
+
+    }
+
+    .sidebar {
+      grid-area: sidebar;
+    }
+
+    .box-1 {
+      grid-area: box-1;
+
+    }
+
+    .box-2 {
+      grid-area: box-2;
+
+    }
+
+    .box-3 {
+      grid-area: box-3;
+
+    }
+
+    footer {
+      grid-area: footer;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      width: 100%;
+    }
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(139, 74, 112);
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(78, 29, 62);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+    .img {
+      display: block;
+      padding: 5px;
+      filter: blur(1px);
+    }
+
+    img:hover {
+      filter: none;
+    }
+
+    .button {
+      background-color: rgb(87, 46, 71);
+      display: inline-block;
+      border: solid black 1px;
+      color: blanchedalmond;
+    }
